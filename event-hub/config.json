@@ -1,0 +1,24 @@
+{
+  "UserConfig": {
+    "NamespaceConfig": [
+      {
+        "Type": "EventHub",
+        "Name": "flink-intro",
+        "Entities": [
+          {
+            "Name": "flink-intro-event-hub",
+            "PartitionCount": "2",
+            "ConsumerGroups": [
+              {
+                "Name": "flink-intro-consumer"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "LoggingConfig": {
+      "Type": "File"
+    }
+  }
+}
